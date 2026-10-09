@@ -1,0 +1,31 @@
+Basic syntax:
+
+DELETE FROM table_name
+WHERE condition;
+
+
+
+1. Delete one row:
+
+DELETE FROM students
+WHERE id = 2;
+
+
+
+2. Delete multiple rows
+
+DELETE FROM students
+WHERE age < 20;
+
+
+
+3. Delete all rows:
+
+DELETE FROM students;
+
+
+
+4. Delete using multiple conditions:
+
+DELETE FROM students
+WHERE age > 20 AND name = 'Karim';

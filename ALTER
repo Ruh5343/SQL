@@ -1,0 +1,40 @@
+1. Add a new column:
+
+ALTER TABLE students
+ADD email VARCHAR(100);
+
+
+
+2. Modify a column's data type:
+
+ALTER TABLE students
+MODIFY name VARCHAR(100);
+
+
+
+3. Rename a column:
+
+ALTER TABLE students
+RENAME COLUMN name TO student_name;
+
+
+
+4. Delete a column
+
+ALTER TABLE students
+DROP COLUMN email;
+
+
+
+5. Rename a table
+
+ALTER TABLE students
+RENAME TO student_info;
+
+
+
+6. Add a constraint
+
+ALTER TABLE students
+ADD CONSTRAINT pk_student PRIMARY KEY (student_id);
+
